@@ -1,0 +1,117 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    background: url(baim-hanif-pYWuOMhtc6k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    border: antiquewhite;
+    height: 800px;
+    color: white;
+    
+}
+
+.home h1{
+    font-size: 4em;
+    font-weight: bold;
+    
+}
+
+.home h2{
+    font: italic;
+    font-size: 1.5em;
+    
+}
+
+.home .btn1{
+    height: 45px;
+    width: 140px;
+    background-color: turquoise;
+    color:white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+.home .btn2{
+    height: 45px;
+    width: 140px;
+    background:transparent;
+    color:white;
+    outline: none;
+    border: 2px solid white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn2:hover{
+    background-color: turquoise;
+    color: white;
+    border:none
+}
+
+.btn1:hover{
+    background:none;
+    color: white;
+    border:2px solid white;
+}
+
+.feature p{
+    color:gray;
+}
+
+#navbarNav{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.services p{
+    color: dimgray;
+    font-weight: bold;
+}
+
+.services h1{
+    font-weight: bolder;
+}
+
+
+.contact h1{
+    font-size: 50px;
+}
+
+.contact{
+    background-image: url(./samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    border: antiquewhite;
+    height: 800px;
+    color:white;
+    
+
+}
+
+.card-body h5{
+    color: black;
+}
+
+.card-body p{
+    color: black;
+}
+
+.card-header{
+    color: black;
+}
+
+#navtop{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
